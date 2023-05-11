@@ -1,4 +1,4 @@
-# Jae was here... ;)
+# Jae was here?
 
 User-agent: *
 Disallow:
