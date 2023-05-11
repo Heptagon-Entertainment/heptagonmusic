@@ -1,0 +1,129 @@
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: Inter;
+}
+
+body {
+  background: rgb(181, 181, 181);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(181, 181, 181, 1) 0%,
+    rgba(122, 122, 122, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(181, 181, 181, 1) 0%,
+    rgba(122, 122, 122, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(181, 181, 181, 1) 0%,
+    rgba(122, 122, 122, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b5b5b5",endColorstr="#7a7a7a",GradientType=1);
+}
+
+.container-parent {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.release-container {
+  height: 720px;
+  width: 330px;
+  display: flex;
+  box-shadow: 0px 0px 50px -30px #000000;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.release-image {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.release-data {
+  padding: 24px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+
+.artist {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.artist-name {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.artist-image {
+  border-radius: 100%;
+  width: 48px;
+}
+
+.release-name {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.line {
+  flex: 0 0 auto;
+  width: 284px;
+  height: 1px;
+  display: flex;
+  margin-top: 16px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  background-color: #d9d9d9;
+}
+
+.digital-platforms {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.platform-parent {
+  display: contents;
+}
+
+.platform {
+  width: 96px;
+  align-self: flex-start;
+  object-fit: cover;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 12px;
+  margin-top: 32px;
+  color: rgba(0, 0, 0, 0.5);
+}

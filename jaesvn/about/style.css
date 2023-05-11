@@ -1,0 +1,122 @@
+@import url("https://rsms.me/inter/inter.css");
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.171);
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  display: block;
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  z-index: 2;
+}
+
+div::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+section:nth-of-type(1) {
+  background-color: rgb(49, 49, 49);
+  background-image: url("./Assets/JAE_SVN_Background.png");
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.text-box {
+  width: 700px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.JAE_SVN_Logo {
+  height: 60px;
+  user-select: none;
+}
+
+.HM_Logo {
+  width: 250px;
+  height: 51.34px;
+  display: inline-block;
+  margin: 0 auto;
+  user-select: none;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.column {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+@media (max-width: 1025px) {
+  .text-box {
+    width: 600px;
+  }
+}
+
+@media (max-width: 769px) {
+  .text-box {
+    width: 500px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 481px) {
+  .text-box {
+    width: 350px;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
+
+  .JAE_SVN_Logo {
+    height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .text-box {
+    width: 300px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .JAE_SVN_Logo {
+    height: 45px;
+  }
+}

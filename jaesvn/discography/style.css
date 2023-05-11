@@ -1,0 +1,114 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.171);
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    display: block;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    z-index: 2;
+}
+
+.HM_Logo{
+    width: 250px;
+    height: 51.34px;
+    display:inline-block;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+div::-webkit-scrollbar {
+    display: none;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
+section:nth-of-type(1) {
+    background-color: rgb(230,142,0);
+    background-image: url("./Assets/JAE_SVN_Walk_Background.png");
+}
+
+section:nth-of-type(2) {
+    background-color: rgb(0,131,222);
+    background-image: url("./Assets/JAE_SVN_Discord_Background.png");
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+}
+
+.JAE_SVN_Album{
+    width: 450px;
+    height: 450px;
+    border-radius: 10%;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    transition: all .2s ease-in-out;
+}
+
+.JAE_SVN_Album:hover{
+    transform: scale(1.02);
+}
+
+.JAE_SVN_Logo{
+    pointer-events: none;
+    margin-left: 100px;
+}
+
+@media (max-width:1025px) {
+    .JAE_SVN_Album{
+        margin-top: 30px;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (max-width:769px) {
+    .JAE_SVN_Album{
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:481px) {
+    .JAE_SVN_Album{
+        margin-top: 30px;
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width:320px) {
+    .JAE_SVN_Album{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+    }
+}

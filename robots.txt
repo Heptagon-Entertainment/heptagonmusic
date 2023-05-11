@@ -1,0 +1,6 @@
+# Jae was here... ;)
+
+User-agent: *
+Disallow:
+
+Sitemap: https://www.heptagonmusic.com/sitemap.xml
