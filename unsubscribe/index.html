@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+   <header>
+      <meta name="robots" content="noindex" />
+      <meta name="googlebot" content="noindex" />
+
+      <title>Unsubscribe</title>
+   </header>
+   <body>
+      <form
+         action="#"
+         method="get"
+         class="custom-form mt-lg-4 mt-2"
+         role="form"
+         name="submit-to-google-sheet"
+         id="emailForm"
+         onsubmit="onSubmit()"
+      >
+         <input
+            type="email"
+            placeholder="Email address"
+            pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+            required=""
+         />
+         <button type="submit">Unsubscribe</button>
+      </form>
+      <span id="unsubscribed"></span>
+      <!-- JAVASCRIPT FILES -->
+      <script src="../js/newsletter/unsubscribe.js"></script>
+   </body>
+</html>
