@@ -1,6 +1,7 @@
 # Jae was here?
 
 User-agent: *
-Disallow:
+Disallow: /images/black-and-white-black-headphones.jpg
+Disallow: /images/close-up-piano-keyboard-keys.jpg
 
 Sitemap: https://www.heptagonmusic.com/sitemap.xml
